@@ -1,0 +1,9 @@
+results/
+catboost_info/
+visualizations/
+src/__pycache__/
+*.txt
+*.png
+*.json
+*.csv
+*.cbm

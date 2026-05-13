@@ -154,7 +154,7 @@ def process_subject_year(SUBJECT, CLASS_NUMBER, students, modified_students, pas
 def create_nextyear_firstsemester_prediction_dataset():
     current_dir = os.getcwd()
     input_dir = os.path.join(current_dir, "data")
-    input_file_students = os.path.join(input_dir, "students_preprocessed_sentetik.csv")
+    input_file_students = os.path.join(input_dir, "students_preprocessed_synthetic.csv")
 
     students = pd.read_csv(input_file_students)
     print("STUDENTS DATA IMPORTED")

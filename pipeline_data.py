@@ -12,7 +12,7 @@ import pandas as pd
 
 print("\n=== STEP 1: Ongoing Semester ===")
 DAYS = [20, 30, 40, 50, 60]
-all_grades = pd.read_csv("data/students_preprocessed_sentetik.csv")
+all_grades = pd.read_csv("data/students_preprocessed_synthetic.csv")
 os.makedirs("data/prediction_datasets", exist_ok=True)
 for day in DAYS:
     print(f"Processing {day} days...")

@@ -26,7 +26,7 @@ DAYS = [20,30,40,50,60]
 current_dir = os.getcwd()
 input_dir = os.path.join(current_dir, "data")
 
-input_file_students = os.path.join(input_dir, "students_preprocessed_sentetik.csv")
+input_file_students = os.path.join(input_dir, "students_preprocessed_synthetic.csv")
 
 output_dir = os.path.join(current_dir, "data", "prediction_datasets")
 
