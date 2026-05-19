@@ -1,3 +1,18 @@
+# =============================================================================
+# AI Assistance Disclosure
+# -----------------------------------------------------------------------------
+# Tool:    Claude (Sonnet 4.6, Anthropic)
+# Date:    2025-04-15
+# Prompt:  "Using the functions in function.py, write the call lines that
+#          generate the next-year first-semester prediction dataset as a .py
+#          file instead of a Jupyter notebook."
+# Notes:   The data processing functions were written by the author in a
+#          Jupyter notebook and converted into a single .py file with the help
+#          of AI. In this file, AI was used only to add the call layer that
+#          invokes these functions. The generated code was reviewed and
+#          partially adjusted by the author.
+# =============================================================================
+
 import pandas as pd
 import numpy as np
 import os

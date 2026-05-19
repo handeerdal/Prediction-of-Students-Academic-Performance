@@ -1,3 +1,18 @@
+# =============================================================================
+# AI Assistance Disclosure
+# -----------------------------------------------------------------------------
+# Tool:    Claude (Sonnet 4.6, Anthropic)
+# Date:    2025-04-25
+# Prompt:  "Write a CatBoost regression training module with baseline training,
+#          Optuna hyperparameter tuning, feature importance-based feature
+#          selection (PredictionValuesChange, LossFunctionChange, SHAP), and
+#          k-fold cross-validation. Save results, model files, and feature
+#          importance as JSON/CSV."
+# Notes:   The generated code was reviewed, verified, and partially adjusted
+#          by the author. Methodology and evaluation strategy are the
+#          author's own design.
+# =============================================================================
+
 import os
 import json
 import pandas as pd

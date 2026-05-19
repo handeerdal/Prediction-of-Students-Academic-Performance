@@ -1,3 +1,16 @@
+# =============================================================================
+# AI Assistance Disclosure
+# -----------------------------------------------------------------------------
+# Tool:    Claude (Sonnet 4.6, Anthropic)
+# Date:    2025-04-15
+# Prompt:  "Check my various data preparation codes for different prediction scenarios. 
+#          Extract the common steps into shared functions and turn them into a separate functions .py file that can be imported
+#          by each notebook. The functions should be designed to be reusable across different prediction scenarios.
+# Notes:   The generated code was reviewed, verified, and partially adjusted
+#          by the author. 
+# =============================================================================
+
+
 import pandas as pd
 import numpy as np
 from sklearn.linear_model import LinearRegression

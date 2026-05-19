@@ -1,3 +1,13 @@
+# =============================================================================
+# AI Assistance Disclosure
+# -----------------------------------------------------------------------------
+# Tool:    Claude (Sonnet 4.6, Anthropic)
+# Date:    2025-05-12
+# Prompt:  "Write a pipeline that calls my CatBoost training
+#          function."
+# Notes:   The generated code was reviewed and
+#          partially adjusted by the author.
+# =============================================================================
 import sys
 import os
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), "src"))

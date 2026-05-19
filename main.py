@@ -1,3 +1,16 @@
+# =============================================================================
+# AI Assistance Disclosure
+# -----------------------------------------------------------------------------
+# Tool:    Claude (Sonnet 4.6, Anthropic)
+# Date:    2025-05-12
+# Prompt:  "Write a simple main.py that runs my three pipeline scripts
+#          in order, with the option to call different steps."
+# Notes:   The underlying pipeline scripts were written by the author. AI was
+#          used only to write this small orchestrator that runs them in
+#          sequence with a step-selection argument. The generated code was
+#          reviewed and partially adjusted by the author.
+# =============================================================================
+
 # Usage:
 #   python main.py              # run all steps
 #   python main.py --steps 1    # only data creation
