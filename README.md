@@ -51,3 +51,6 @@ python pipeline_data.py
 python pipeline_base.py
 python pipeline_catboost.py
 ```
+
+## About Dataset 
+The example dataset included in this repository is only a small subset provided to demonstrate that the code runs correctly. It contains data for the subjects "Mathematics, History" and only includes 5th and 6th grade students. Additionally, the dataset is limited to students in the ClassSection 'a' and only includes records from school number 2.
